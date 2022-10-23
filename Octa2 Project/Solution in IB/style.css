@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    --darknavyblue: #0e121b;
+    --lightBlue: #2b60bb;
+    --lighterBlue: rgb(17, 153, 250);
+    --lightgray: rgb(156 163 175);
+    --lightergray: rgb(209 213 219);
+}
+
+.solution-IB {
+    background-color: var(--darknavyblue);
+    color: white;
+    padding: 0 0 50px 0;
+}
+
+.IB-container {
+    width: 90%;
+    margin: auto;
+}
+
+.IB-container .header {
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 0 150px 0;
+}
+
+.IB-container .header h1 {
+    color: var(--lighterBlue);
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.IB-container .header p {
+    margin: 1.25rem 0 0 0;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: var(--lightgray);
+}
+
+.IB-container .IB-box {
+    display: flex;
+    margin: auto;
+}
+
+.IB-container .IB-box .IB-img {
+    width: 40%;
+    margin: auto;
+}
+
+.IB-container .IB-box .IB-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.IB-container .IB-box .IB-con {
+    width: 50%;
+    margin: auto;
+}
+
+.IB-container .IB-box .IB-con .IB-con-1 h1:nth-child(1) {
+    font-size: 2.25rem;
+    padding: 0 0 30px 0;
+    color: var(--lighterBlue);
+}
+
+.IB-container .IB-box .IB-con .IB-con-1 p:nth-child(2) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0 0 30px 0;
+    color: rgb(199, 191, 191);
+}
+
+.IB-container .IB-box .IB-con .IB-con-1 p:nth-child(3) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0 0 30px 0;
+    color: rgb(199, 191, 191);
+}
+
+.IB-container .IB-box .IB-con .IB-con-1 p:nth-child(4) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0 0 30px 0;
+    color: rgb(199, 191, 191);
+}
+
+.IB-container .IB-box .IB-con .IB-con-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.IB-container .IB-box .IB-con .IB-con-2 .inner-IB {
+    margin: 20px 0;
+}
+
+.IB-container .IB-box .IB-con .IB-con-2 .inner-IB .div {
+    margin: 10px 0;
+}
+
+.IB-container .IB-box .IB-con .IB-con-2 .inner-IB .div p:nth-child(1) {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--lighterBlue);
+}
+
+.IB-container .IB-box .IB-con .IB-con-2 .inner-IB .div p:nth-child(2) {
+    letter-spacing: -.025em;
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.IB-container .IB-box .IB-con .IB-get-started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+.IB-container .IB-box .IB-con .IB-get-started p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: var(--lighterBlue);
+}
+
+
+.contact-us {
+    background-color: white;
+    color: rgb(14, 18, 27);
+    min-height: 100vh;
+    font-size: 14px;
+    display: grid;
+    place-content: center;
+}
+
+.contact-us header {
+    text-align: center;
+    line-height: 29px;
+    margin-bottom: 50px;
+}
+
+.contact-us h1:nth-child(1) {
+    max-width: 360px;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.contact-us header p {
+    font-size: 1.35em;
+    color: var(--lightgray);
+}
+
+.contact-us form {
+    box-sizing: border-box;
+    text-align: left;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-us .label-input {
+    display: flex;
+    gap: 1em;
+}
+
+.contact-us .label-input .inner-lp label:nth-child(1),
+.contact-us .email-number .inner-lp label:nth-child(1),
+.contact-us .select-con label:nth-child(1) {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(163, 163, 163);
+}
+
+.contact-us .select-con {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.contact-us .label-input .inner-lp input:nth-child(2),
+.contact-us .email-number .inner-lp input:nth-child(2) {
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 44px;
+    background-color: rgb(52, 59, 74);
+    border-radius: 0.25rem;
+    outline: none;
+    padding: 1rem;
+    color: white;
+}
+
+.contact-us .select-con .options {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    background: rgb(31, 39, 58);
+    border-radius: 8px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: none;
+    color: white
+}
+
+.contact-us .select-con .options select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    outline: none;
+}
+
+
+.contact-us button {
+    height: 44px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    background-color: rgb(17, 153, 250);
+    cursor: pointer;
+    margin: 20px 0 0 0;
+}
+
+.contact-us button p {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    color: white;
+}
+
+
+
+
+/* Media Querry */
+@media (max-width: 1200px) {
+
+    .solution-IB {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .IB-container {
+        width: 95%;
+    }
+
+    .IB-container .header {
+        width: 90%;
+    }
+
+    .IB-container .IB-box {
+        display: block;
+    }
+
+    .IB-container .IB-box .IB-img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .IB-container .IB-box .IB-con {
+        width: 90%;
+    }
+
+    .IB-container .IB-box .IB-con .IB-con-1 h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .IB-container {
+        padding: 0 0 50px 0;
+    }
+    .IB-container .header h1 {
+        font-size: 3rem;
+    }
+
+    .IB-container .header p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact-us {
+        padding: 70px 0 0 0;
+    }
+
+    .contact-us form {
+        width: 95%;
+    }
+
+    .contact-us .label-input {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 250px) {
+    .IB-container .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .IB-container .header p {
+        font-size: 0.5rem;
+    }
+}

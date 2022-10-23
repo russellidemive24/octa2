@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    --orange: #193266;
+    --lightBlue: #2b60bb;
+    --lighterBlue: rgb(17, 153, 250);
+    --grey: #f0f8ff;
+    --white: #fff;
+    --darkgrey: #3f4141;
+    --lightBlack: #282929;
+    font-family: "Abyssinica SIL", serif;
+    --darknavyblue: #0e121b;
+    --lightgray: rgb(156 163 175);
+    --lightergray: rgb(209 213 219);
+    background-color: var(--darknavyblue);
+}
+
+.sec-2 .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-2 .container .card {
+    margin: 20px 4px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: -2px 1px 7px var(--orange), -2px -1px 7px var(--orange);
+    border-radius: 20px;
+    background-color: var(--darknavyblue);
+}
+
+.sec-2 .container .card p:nth-child(1) {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: var(--lightBlue);
+}
+
+.sec-2 .container .card p:nth-child(2) {
+    /* font-size: 2em; */
+    padding-bottom: 20px;
+    color: var(--lightergray);
+    font-weight: 600;
+}
+
+.sec-2 .container .card h1:nth-child(3) {
+    /* font-size: 2em; */
+    padding-bottom: 20px;
+    color: var(--lighterBlue);
+}
+
+.sec-2 .container .card p:nth-child(4) {
+    /* font-size: 2.5em; */
+    padding: 15px 0;
+    font-weight: 600;
+    color: var(--lightBlue);
+}
+
+.sec-2 .container .card .icon-txt {
+    display: flex;
+}
+
+.sec-2 .container .card .icon-txt i {
+    font-size: large;
+    color: rgb(34 197 94);
+    padding-right: 5px;
+}
+
+.sec-2 .container .card .btn-a button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--lightBlue);
+    margin: 10px auto;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* MEDIA QUERRY */
+@media (max-width: 1250px) {
+    .sec-2 .container {
+        flex-wrap: wrap;
+    }
+
+    .sec-2 .container .card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    .sec-2 .container .card {
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+    .sec-2 .container {
+        width: 100%;
+    }
+
+    .sec-2 .container .card {
+        width: 95%;
+    }
+}
